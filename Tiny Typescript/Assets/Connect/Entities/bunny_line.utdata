@@ -1,0 +1,83 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "6bfea5c602124831b3c051bb7cf24f2a",
+    "Name": "bunny_line",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "8560701f2e404f29b8abe8c72322bfb1", "Name": "BunnyBlock" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "8560701f2e404f29b8abe8c72322bfb1",
+    "Name": "BunnyBlock",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 50
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" },
+        "Properties": {
+            "scale": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0.4,
+                    "y": 0.4
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "0eb8cf649b83a9247b0ab014a14adf96", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 3
+        }
+    }, {
+        "Type": { "Id": "a5b2e97149a741d4a7318bef5587729e", "Name": "IsNewLine" }
+    }, {
+        "Type": { "Id": "ca20f2fa87f4428aad29e15c59a69699", "Name": "LineType" },
+        "Properties": {
+            "Type": {
+                "$TypeId": 8,
+                "Type": { "Id": "a877fb81ce4e4ecebedbeda79485785e", "Name": "GoalTypes" },
+                "Id": "be90a1b826a944f280d80a3d4039c107",
+                "Name": "Bunny",
+                "Value": 1
+            }
+        }
+    }, {
+        "Type": { "Id": "07547ac8bf414cd9b02b88e20e437149", "Name": "Level" },
+        "Properties": {
+            "LevelIndex": 0
+        }
+    }, {
+        "Type": { "Id": "9c6c671b252f4436b799bef284b53774", "Name": "DestroyOnLevelSlide" }
+    }]
+}]

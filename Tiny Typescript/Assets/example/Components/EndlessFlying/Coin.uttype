@@ -1,0 +1,24 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "70a681455b214e1086d96aa76370911a",
+    "Name": "Coin",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "c25ae370a2b0467c876e2943b3996855",
+        "Name": "Value",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "70a681455b214e1086d96aa76370911a", "Name": "Coin" },
+        "Properties": {
+            "Value": 10
+        }
+    }
+}]

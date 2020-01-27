@@ -1,0 +1,30 @@
+[{
+    "$TypeId": 3,
+    "Id": "ab25be319d334023beb06f432f038d4c",
+    "Name": "AudioType",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "9b9915edbf8d42109d98fe667990790e",
+        "Name": "Type",
+        "FieldType": { "Id": "0a136a5100664d77b5be6c20e3274f31", "Name": "AudioSourceType" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "ab25be319d334023beb06f432f038d4c", "Name": "AudioType" },
+        "Properties": {
+            "Type": {
+                "$TypeId": 8,
+                "Type": { "Id": "0a136a5100664d77b5be6c20e3274f31", "Name": "AudioSourceType" },
+                "Id": "6b494771379b4cfa919140fb2a203877",
+                "Name": "SOUNDEFFECT",
+                "Value": 1
+            }
+        }
+    }
+}]

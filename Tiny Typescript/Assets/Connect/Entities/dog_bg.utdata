@@ -1,0 +1,84 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "780709a9cd8944afb6cef9e07e568c49",
+    "Name": "dog_bg",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "243b4e81bca24ad78f20793177075885", "Name": "DogBlock" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "243b4e81bca24ad78f20793177075885",
+    "Name": "DogBlock",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 50,
+                    "y": 2.2
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" },
+        "Properties": {
+            "scale": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 1.8,
+                    "y": 1.8
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "29140a4698eed794dba64f7539a6c56e", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 0.4901961,
+                    "g": 0.4901961,
+                    "b": 0.4901961,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 2
+        }
+    }, {
+        "Type": { "Id": "f8c7b0a720584c798fc9f560f77502a3", "Name": "BackgroundType" },
+        "Properties": {
+            "Type": {
+                "$TypeId": 8,
+                "Type": { "Id": "a877fb81ce4e4ecebedbeda79485785e", "Name": "GoalTypes" },
+                "Id": "72180e1968e048c49813a7aa593be2e5",
+                "Name": "Mouse",
+                "Value": 3
+            }
+        }
+    }, {
+        "Type": { "Id": "07547ac8bf414cd9b02b88e20e437149", "Name": "Level" },
+        "Properties": {
+            "LevelIndex": 0
+        }
+    }, {
+        "Type": { "Id": "ab908d1ab5c24e0bb73509303fa35351", "Name": "IsNewBackground" }
+    }, {
+        "Type": { "Id": "9c6c671b252f4436b799bef284b53774", "Name": "DestroyOnLevelSlide" }
+    }]
+}]

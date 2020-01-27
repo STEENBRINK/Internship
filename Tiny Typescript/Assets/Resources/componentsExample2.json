@@ -1,0 +1,97 @@
+{
+	"global": {
+		"coupon_type": ""
+	},
+	"SCENE_NAME": {
+		"enabled": true,
+		"OBJECT_NAME": {
+			"enabled": true,
+			"canBeDisabled": true,
+			"displayName": "OBJECT_NAME",
+			"components": [{
+					"enabled": true,
+					"type": "ANIMATION",
+					"animationName": "NameOfAnimation",
+					"rows": "4",
+					"columns": "4",
+					"frameSize": "160x160"
+				},
+				{
+					"enabled": true,
+					"type": "AUDIO",
+					"audioName": "NameOfAudio",
+					"isMusic": true
+				},
+				{
+					"enabled": true,
+					"type": "BUTTON",
+					"isHyperlink": false,
+					"destination": "///Can either be a link, or a name of a scene///"
+				},
+				{
+					"enabled": true,
+					"type": "CHECKLIST",
+					"listName": "NameOfList",
+					"items": {
+						"item1": true,
+						"item2": false
+					}
+				},
+				{
+					"enabled": true,
+					"type": "COLOR",
+					"color": "#ffffffff"
+				},
+				{
+					"enabled": true,
+					"type": "IMAGE",
+					"imageName": "NameOfImage",
+					"imageSize": "200x200"
+				},
+				{
+					"enabled": true,
+					"type": "PARALLAX",
+					"imageSize": "200x200",
+					"layers": [{
+						"imageName": "NameOfLayerImage",
+						"speed": 1
+					}, {
+						"imageName": "NameOfLayerImage",
+						"speed": 2
+					}]
+				},
+				{
+					"enabled": true,
+					"type": "PARTICLE",
+					"": ""
+				},
+				{
+					"enabled": true,
+					"type": "PDF",
+					"pdfName": "NameOfPDF"
+				},
+				{
+					"enabled": true,
+					"type": "TEXT",
+					"text": "TextValue",
+					"fontSize": "15",
+					"fontColor": "#000000ff",
+					"font": ""
+				},
+				{
+					"enabled": true,
+					"type": "TOGGLE",
+					"enabledImageName": "NameOfEnabledImage",
+					"disabledImageName": "NameOfDisabledImage",
+					"imageSize": "200x200"
+				},
+				{
+					"enabled": true,
+					"type": "VIDEO",
+					"videoName": "NameOfVideo",
+					"videoSize": "200x200"
+				}
+			]
+		}
+	}
+}

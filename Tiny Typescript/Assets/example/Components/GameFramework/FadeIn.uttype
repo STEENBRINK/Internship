@@ -1,0 +1,33 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "be03bd95a315464bb43b0354b7632ac7",
+    "Name": "FadeIn",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "56fbff7c84464deb9d46a6200d03dcb5",
+        "Name": "EndAlpha",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "9d5661d1a7be45bab1b8b23cefbe3c86",
+        "Name": "RemoveComponentAfterFade",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "be03bd95a315464bb43b0354b7632ac7", "Name": "FadeIn" },
+        "Properties": {
+            "EndAlpha": 255,
+            "RemoveComponentAfterFade": true
+        }
+    }
+}]

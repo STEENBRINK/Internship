@@ -1,0 +1,21 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "0c506d344bde48a391d3edb1dd356a28",
+    "Name": "GridTileLoader",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "209a52df29574737a22e3aaebcc17e71",
+        "Name": "GridReference",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "0c506d344bde48a391d3edb1dd356a28", "Name": "GridTileLoader" }
+    }
+}]

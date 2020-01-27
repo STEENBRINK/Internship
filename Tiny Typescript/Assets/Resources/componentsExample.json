@@ -1,0 +1,157 @@
+{
+	"global": {
+		"coupon_type": ""
+	},
+	"SCENE_NAME": {
+		"enabled": true,
+		"OBJECT_NAME": {
+			"enabled": true,
+			"canBeDisabled": true,
+			"displayName": "OBJECT_NAME",
+			"components": {
+				"animationComponent": {
+					"enabled": true,
+					"type": "ANIMATION",
+					"animationName": "NameOfAnimation",
+					"rows": 4,
+					"columns": 4,
+					"speed": 2,
+					"loopMode": 0,
+					"frameSize": {
+						"x": 100,
+						"y": 100
+					}
+				},
+				"audioComponent": {
+					"enabled": true,
+					"type": "AUDIO",
+					"audioName": "NameOfAudio",
+					"isMusic": true
+				},
+				"buttonComponent": {
+					"enabled": true,
+					"type": "BUTTON",
+					"isHyperlink": false,
+					"destination": "///Can either be a link, or a name of a scene///"
+				},
+				"checklistComponent": {
+					"enabled": true,
+					"type": "CHECKLIST",
+					"listName": "NameOfList",
+					"items": {
+						"item1": true,
+						"item2": false
+					}
+				},
+				"colorComponent": {
+					"enabled": true,
+					"type": "COLOR",
+					"color": "#ffffffff"
+				},
+				"imageComponent": {
+					"enabled": true,
+					"type": "IMAGE",
+					"imageName": "NameOfImage",
+					"imageSize": {
+						"x": 100,
+						"y": 100
+					}
+				},
+				"parallaxComponent": {
+					"enabled": true,
+					"type": "PARALLAX",
+					"imageSize": {
+						"x": 100,
+						"y": 100
+					},
+					"layers": [{
+						"imageName": "NameOfLayerImage",
+						"speed": 1
+					}, {
+						"imageName": "NameOfLayerImage",
+						"speed": 2
+					}]
+				},
+				"particleComponent": {
+					"enabled": true,
+					"type": "PARTICLE",
+					"emitterType": "box/circle/cone",
+					"imageName": "NameOfParticleImage",
+					"imageSize": {
+						"x": 100,
+						"y": 100
+					},
+					"attachToEmitter": true,
+					"initialColor": [{
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"a": 1,
+						"percentage": 0
+					}, {
+						"r": 0,
+						"g": 0,
+						"b": 0,
+						"a": 1,
+						"percentage": 100
+					}],
+					"emitRate": 1,
+					"advancedOptions": {
+						"speed": 1,
+						"lifeTime": {
+							"min": 5,
+							"max": 5
+						},
+						"initialScale": {
+							"min": 1,
+							"max": 1
+						},
+						"initialRotation": {
+							"min": 0,
+							"max": 0
+						},
+						"initialRotationSpeed": {
+							"min": 0,
+							"max": 0
+						},
+						"scaleOverLifeTime": "SmallToBig",
+						"scaleOverLifeTimeMaxSize": 2
+					}
+				},
+				"pdfComponent": {
+					"enabled": true,
+					"type": "PDF",
+					"pdfName": "NameOfPDF"
+				},
+				"textComponent": {
+					"enabled": true,
+					"type": "TEXT",
+					"text": "TextValue",
+					"fontSize": "15",
+					"fontColor": "#000000ff",
+					"font": "",
+					"isCanvasText": true
+				},
+				"toggleComponent": {
+					"enabled": true,
+					"type": "TOGGLE",
+					"enabledImageName": "NameOfEnabledImage",
+					"disabledImageName": "NameOfDisabledImage",
+					"imageSize": {
+						"x": 100,
+						"y": 100
+					}
+				},
+				"videoComponent": {
+					"enabled": true,
+					"type": "VIDEO",
+					"videoName": "NameOfVideo",
+					"videoSize": {
+						"x": 100,
+						"y": 100
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+[{
+    "$TypeId": 3,
+    "Id": "ab8e3743e7fc46e0bfd1d8eb5764af96",
+    "Name": "CollisionQueue",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "b94f37e8ac1a430084d1354d62655fde",
+        "Name": "Collisions",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": true,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "ce0f95b801e844779904be71e72d0ebb",
+        "Name": "Paused",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "ab8e3743e7fc46e0bfd1d8eb5764af96", "Name": "CollisionQueue" }
+    }
+}]

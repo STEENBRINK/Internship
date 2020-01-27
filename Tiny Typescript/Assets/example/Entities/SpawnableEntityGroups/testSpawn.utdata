@@ -1,0 +1,117 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "d2c2ee997ce545eba2f7ecb4ca9da2e8",
+    "Name": "testSpawn",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "10abc20bf1d645c2b4751b3a773af29e", "Name": "FallingBlocky" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "10abc20bf1d645c2b4751b3a773af29e",
+    "Name": "FallingBlocky",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "a21dd91a0ca735042ac5123fa6a44238", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 0.9896598,
+                    "g": 1,
+                    "b": 0.4292453,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 1
+        }
+    }, {
+        "Type": { "Id": "dad15a16473d1a6264af416ae1e47833", "Name": "RigidBody2D" },
+        "Properties": {
+            "bodyType": {
+                "$TypeId": 8,
+                "Type": { "Id": "a4afdb83c635db286370870d059ac493", "Name": "BodyType" },
+                "Id": "5602293d3c8f73715a64943669328d32",
+                "Name": "Dynamic",
+                "Value": 2
+            },
+            "friction": 50,
+            "restitution": 0.75,
+            "density": 10
+        }
+    }, {
+        "Type": { "Id": "162ab289c4e402ee5358f3df0a331fa3", "Name": "BoxCollider2D" }
+    }, {
+        "Type": { "Id": "0da2e5b682c44ed3ab7ce8caa0e6636b", "Name": "DestroyOutOfBounds" },
+        "Properties": {
+            "BoundsMinMaxX": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" }
+            },
+            "BoundsMinMaxY": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": -8.9
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "a21dd91a0ca735042ac5123fa6a44238", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "473d3cbcdc5172241bd0c72de1ea755b", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "8acd90d5f2ca6e74dbc7f92e605823b0", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "de2e34c88847f3142b332c377b14a1da", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "67b0cedd95feee94e9000f9c527153e3", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9ff7ccda93558f847b55e7c5e0b72730", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 6
+        }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "10abc20bf1d645c2b4751b3a773af29e", "Name": "FallingBlocky" },
+            "speed": 1
+        }
+    }, {
+        "Type": { "Id": "be2f221c9af74ec5c0a4495a2d6769a3", "Name": "Sprite2DRendererOptions" },
+        "Properties": {
+            "size": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 1.5,
+                    "y": 2
+                }
+            }
+        }
+    }]
+}]

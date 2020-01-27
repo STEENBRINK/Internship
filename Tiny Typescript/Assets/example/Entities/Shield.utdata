@@ -1,0 +1,133 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "a5f3b551a9154b2da7cb464e7728f56a",
+    "Name": "Shield",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "09c629ffe5984e7f8771fccd06184ecb", "Name": "Shield" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "09c629ffe5984e7f8771fccd06184ecb",
+    "Name": "Shield",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" },
+        "Properties": {
+            "scale": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 1,
+                    "y": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "a35bf1ae6afc75045a1133d9435dfe2f", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "be2f221c9af74ec5c0a4495a2d6769a3", "Name": "Sprite2DRendererOptions" },
+        "Properties": {
+            "size": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 1,
+                    "y": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "5a68c59783d93e60c704f63111bcb0ad", "Name": "Sprite2DRendererHitBox2D" },
+        "Properties": {
+            "pixelAccurate": true
+        }
+    }, {
+        "Type": { "Id": "d3a0393c70934362945958e04b3d4ab1", "Name": "PixelAccurateHitBoxLoader" }
+    }, {
+        "Type": { "Id": "c15055d6403444d1b54a1769bfd3c07e", "Name": "Movement" },
+        "Properties": {
+            "Direction": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": -1
+                }
+            },
+            "Speed": 4,
+            "MinMaxX": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": -20,
+                    "y": 20
+                }
+            },
+            "MinMaxY": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": -6,
+                    "y": 6
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "0da2e5b682c44ed3ab7ce8caa0e6636b", "Name": "DestroyOutOfBounds" },
+        "Properties": {
+            "BoundsMinMaxX": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": -12.5,
+                    "y": 20
+                }
+            },
+            "BoundsMinMaxY": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": -6,
+                    "y": 6
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "a60aa1b9ad84a83eefb0d5382a4d5967", "Name": "AudioSource" },
+        "Properties": {
+            "clip": { "$TypeId": 10, "Guid": "d4394d10abc50b64baf1e5f25c5c7a09", "FileId": 8300000, "Type": 3 },
+            "volume": 0.6
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 2
+        }
+    }, {
+        "Type": { "Id": "35b805ab41f34486a72ae141106a6e67", "Name": "Shield" }
+    }]
+}]

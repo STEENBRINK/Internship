@@ -1,0 +1,51 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "d67a2d6f86fc40709843432dc636d0ad",
+    "Name": "DrawType",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Enum",
+    "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+    "Fields": [{
+        "Id": "edfdd922d8474fd3a1d90f1b619225dc",
+        "Name": "NONE",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "aafa30f8e4fc49b491ba314b5536b460",
+        "Name": "Background",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "adde86ca37db4d599c2d264dfad37830",
+        "Name": "Line",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "0d580e4d6407459aa65de5a0af32d34e",
+        "Name": "BackgroundAndLine",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "d67a2d6f86fc40709843432dc636d0ad", "Name": "DrawType" },
+        "Properties": {
+            "Background": 1,
+            "Line": 2,
+            "BackgroundAndLine": 3
+        }
+    }
+}]

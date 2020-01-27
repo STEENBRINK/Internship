@@ -1,0 +1,90 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "921a2826f73a485b8ca758ba7410405c",
+    "Name": "ButtonVisuals",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "282ef6beec104e2194b809b44d8afbd8",
+        "Name": "Button",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "cff47e09f60844d383d0852593dfbe0f",
+        "Name": "DefaultColor",
+        "FieldType": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "c174da04f6d14f49904eb5708006f85e",
+        "Name": "HoveredColor",
+        "FieldType": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "25f1f71e721c43edb4dab0ebd00f7cce",
+        "Name": "DownColor",
+        "FieldType": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "adaeb61380774a1cbe5641ba6fb092fa",
+        "Name": "DisabledColor",
+        "FieldType": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "c2c0bb2bfca7470e992a95bebb9837a7",
+        "Name": "Initialized",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "921a2826f73a485b8ca758ba7410405c", "Name": "ButtonVisuals" },
+        "Properties": {
+            "HoveredColor": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 0.8679245,
+                    "g": 0.8679245,
+                    "b": 0.8679245,
+                    "a": 1
+                }
+            },
+            "DownColor": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 0.6132076,
+                    "g": 0.6132076,
+                    "b": 0.6132076,
+                    "a": 1
+                }
+            },
+            "DisabledColor": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 0.8773585,
+                    "g": 0.8773585,
+                    "b": 0.8773585,
+                    "a": 0.6352941
+                }
+            }
+        }
+    }
+}]

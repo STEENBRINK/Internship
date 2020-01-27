@@ -1,0 +1,60 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "a877fb81ce4e4ecebedbeda79485785e",
+    "Name": "GoalTypes",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Enum",
+    "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+    "Fields": [{
+        "Id": "a7a0b6b1ca52492a93aa38c6449e5365",
+        "Name": "Dog",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "be90a1b826a944f280d80a3d4039c107",
+        "Name": "Bunny",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "f8eb66bedc324e0da1157d07474d00c8",
+        "Name": "Cat",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "72180e1968e048c49813a7aa593be2e5",
+        "Name": "Mouse",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "35c70cbae3ec430ebd5a4f55f06c4ae6",
+        "Name": "NONE",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "a877fb81ce4e4ecebedbeda79485785e", "Name": "GoalTypes" },
+        "Properties": {
+            "Bunny": 1,
+            "Cat": 2,
+            "Mouse": 3,
+            "NONE": 4
+        }
+    }
+}]

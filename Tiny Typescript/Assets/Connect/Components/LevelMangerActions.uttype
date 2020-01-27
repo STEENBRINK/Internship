@@ -1,0 +1,42 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "c352a8fcc46d4affa390db125b02d206",
+    "Name": "LevelMangerActions",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Enum",
+    "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+    "Fields": [{
+        "Id": "172af59d8cff42d3beeb9112fc1ce6f0",
+        "Name": "NONE",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "22ac32d26f0149208f26d157902b5d28",
+        "Name": "GoToNextLevel",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "79ea0d2d067d4b2cae167b7fa19a5ff0",
+        "Name": "GoToPreviousLevel",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "c352a8fcc46d4affa390db125b02d206", "Name": "LevelMangerActions" },
+        "Properties": {
+            "GoToNextLevel": 1,
+            "GoToPreviousLevel": 2
+        }
+    }
+}]

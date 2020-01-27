@@ -1,0 +1,49 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "55aa1b9d944a4fdca89a6c0bbf6a9bed",
+    "Name": "GameOverManager",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "bd06831f1a45463a8a5304776518957e",
+        "Name": "GameOverEntities",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": true,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "8e1cbdf23f944cefaa26b1305fd50d61",
+        "Name": "TimeBefore",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "ae142184469949f19b5958df2d7b573e",
+        "Name": "GameOverDuration",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "2447d7dc94b8435ab2642e88a01f2b69",
+        "Name": "FinalScore",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "55aa1b9d944a4fdca89a6c0bbf6a9bed", "Name": "GameOverManager" },
+        "Properties": {
+            "TimeBefore": 1,
+            "GameOverDuration": 3
+        }
+    }
+}]

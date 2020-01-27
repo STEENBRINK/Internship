@@ -1,0 +1,62 @@
+[{
+    "$TypeId": 3,
+    "Id": "d6aaf2a30ee049ad9db771fbea49539b",
+    "Name": "Movement",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "fdba5a27ccc948c39de1f8b6c6e1e196",
+        "Name": "Direction",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "e97f98f129594f5492dbcdf1cf233b90",
+        "Name": "Speed",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "283354bbc38b4ce1a68922b4c32efc69",
+        "Name": "MinMaxX",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "f67bf54f100a48eb87ec90da7c121ef8",
+        "Name": "MinMaxY",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "d6aaf2a30ee049ad9db771fbea49539b", "Name": "Movement" },
+        "Properties": {
+            "Speed": 1,
+            "MinMaxX": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": -10,
+                    "y": 10
+                }
+            },
+            "MinMaxY": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": -10,
+                    "y": 10
+                }
+            }
+        }
+    }
+}]

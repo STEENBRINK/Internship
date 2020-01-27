@@ -1,0 +1,45 @@
+[{
+    "$TypeId": 3,
+    "Id": "a7ff806f17cb4d50aa57906b6d20a1d7",
+    "Name": "DestroyOutOfBounds",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "b39f839a419443a98f27146e06a907e7",
+        "Name": "BoundsMinMaxX",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "4598983f97a9414c8167a2c8e0e59080",
+        "Name": "BoundsMinMaxY",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "a7ff806f17cb4d50aa57906b6d20a1d7", "Name": "DestroyOutOfBounds" },
+        "Properties": {
+            "BoundsMinMaxX": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": -10,
+                    "y": 10
+                }
+            },
+            "BoundsMinMaxY": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": -10,
+                    "y": 10
+                }
+            }
+        }
+    }
+}]

@@ -1,0 +1,40 @@
+[{
+    "$TypeId": 3,
+    "Id": "efd25e8bf119464689afb17bd4fde6fc",
+    "Name": "TextReference",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "91e21801910b4f9f98a7f5864d7c9732",
+        "Name": "TextObject",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "9ef558329e094ad6b450bb44cfe6c4af",
+        "Name": "Value",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "054347980a6048a3b1a4d20de871596d",
+        "Name": "Initialized",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "efd25e8bf119464689afb17bd4fde6fc", "Name": "TextReference" },
+        "Properties": {
+            "Value": "sampleText"
+        }
+    }
+}]

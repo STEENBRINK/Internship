@@ -1,0 +1,12 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "033b7fe438924c6a984a07c7d7208643",
+    "Name": "ResetButton",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "DefaultValue": {
+        "Type": { "Id": "033b7fe438924c6a984a07c7d7208643", "Name": "ResetButton" }
+    }
+}]

@@ -1,0 +1,71 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "bd37938e7ba247a0bb4ef63d146e3549",
+    "Name": "Slider",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "e06534ff31354bc890e11c1479ab6835",
+        "Name": "Value",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "064ae7d9088248c19d7e26e5d22320d2",
+        "Name": "MinMaxValue",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "d010a01bd7874b4394ec1fc9d5e1263e",
+        "Name": "MaxPosition",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "4abf781422d54d81afebc89a3cfbca73",
+        "Name": "Camera",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "75c8f2cab7c44d29b643014be3ccdb12",
+        "Name": "TooltipVisuals",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": true,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "3b143de9d8cb49808d2daa0dcb26a818",
+        "Name": "LastMousePosition",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "bd37938e7ba247a0bb4ef63d146e3549", "Name": "Slider" },
+        "Properties": {
+            "MinMaxValue": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "y": 100
+                }
+            },
+            "MaxPosition": 93,
+            "LastMousePosition": 0
+        }
+    }
+}]

@@ -1,0 +1,61 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "1ed7c598a62c4ae0ae3d6c81de45083a",
+    "Name": "PlayerCollider",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "0d6e4d4078c64da88037e0e04edf6d07",
+        "Name": "ShieldEntity",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "ad9acc3e365e46efad1c1c5c9617452d",
+        "Name": "ScoreManager",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "12d5cf10a9254587992b0b3d00adc430",
+        "Name": "GameOverManager",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "45b8919abbc847439e7a5fc9d3f50c95",
+        "Name": "Animation",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "2b92a534d1c94eb69fd9b12383bc7353",
+        "Name": "DeathAnimation",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "bb376a4ee33c409c89cc32e9085e7029",
+        "Name": "ShieldActive",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "1ed7c598a62c4ae0ae3d6c81de45083a", "Name": "PlayerCollider" }
+    }
+}]

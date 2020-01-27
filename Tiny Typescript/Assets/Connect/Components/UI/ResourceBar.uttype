@@ -1,0 +1,61 @@
+[{
+    "$TypeId": 3,
+    "Id": "aeff8aebe280496bbeee8c7a246aa2ee",
+    "Name": "ResourceBar",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "0bf64e71510840ec8ecb74ae5bf58439",
+        "Name": "Value",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "4971ca3df1484595b5126982842f1f7a",
+        "Name": "MaxValue",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "14830360e7b04a8f8065e795f85c8f95",
+        "Name": "Width",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "b6437d7165104b729f3f6fc93931060d",
+        "Name": "StartColor",
+        "FieldType": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "beb9832993d94be38b5537d7dacc6256",
+        "Name": "EndColor",
+        "FieldType": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "6589349accab47e786774fdc2e054d42",
+        "Name": "Text",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "aeff8aebe280496bbeee8c7a246aa2ee", "Name": "ResourceBar" }
+    }
+}]

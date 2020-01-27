@@ -1,0 +1,12 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "a5b2e97149a741d4a7318bef5587729e",
+    "Name": "IsNewLine",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "DefaultValue": {
+        "Type": { "Id": "a5b2e97149a741d4a7318bef5587729e", "Name": "IsNewLine" }
+    }
+}]

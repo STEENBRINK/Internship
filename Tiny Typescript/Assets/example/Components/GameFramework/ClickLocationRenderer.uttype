@@ -1,0 +1,77 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "e575a6b48d4742ecb62b0f30e8bbf88b",
+    "Name": "ClickLocationRenderer",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "de937b60db054cc08044a201348513e5",
+        "Name": "Clicker",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "6acdb5d2938248a0a2c71ce3eb3a0ba2",
+        "Name": "RenderingMode",
+        "FieldType": { "Id": "85d3c87433d84d879a89a8b62e6e6bbf", "Name": "ClickRenderingMode" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "7999e4ef023e40d08e3310c16203a082",
+        "Name": "VisualMode",
+        "FieldType": { "Id": "f682cba387314a72874a8e09115bea92", "Name": "ClickVisualMode" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "15cd498762784e84a062086126287bdb",
+        "Name": "Visuals",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "4abdb23e6edb4d459197a97be9aa3707",
+        "Name": "Paused",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "cf9947a8dfff47a9a632a072fad66c00",
+        "Name": "IsPlaying",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "26add2866a9d4c89b9f45d75aed5acfd",
+        "Name": "InitialValue",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "c0dc0e5ddedb4f4ca49d4aaac3573265",
+        "Name": "Initialized",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "e575a6b48d4742ecb62b0f30e8bbf88b", "Name": "ClickLocationRenderer" }
+    }
+}]

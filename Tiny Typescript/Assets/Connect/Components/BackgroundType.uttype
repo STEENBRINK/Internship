@@ -1,0 +1,38 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "f8c7b0a720584c798fc9f560f77502a3",
+    "Name": "BackgroundType",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "03bc3160c95e4134883184ba11b6b98c",
+        "Name": "Type",
+        "FieldType": { "Id": "a877fb81ce4e4ecebedbeda79485785e", "Name": "GoalTypes" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "09b37d521c654c9f882db7fbc92d734a",
+        "Name": "GridPosition",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "f8c7b0a720584c798fc9f560f77502a3", "Name": "BackgroundType" },
+        "Properties": {
+            "Type": {
+                "$TypeId": 8,
+                "Type": { "Id": "a877fb81ce4e4ecebedbeda79485785e", "Name": "GoalTypes" },
+                "Id": "35c70cbae3ec430ebd5a4f55f06c4ae6",
+                "Name": "NONE",
+                "Value": 4
+            }
+        }
+    }
+}]

@@ -1,0 +1,32 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "8e5d616f926d4a04b0d6df3d4e6eeffb",
+    "Name": "Level",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "e07254a2c12c446c85ed24e03c83136f",
+        "Name": "LevelIndex",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "7b049118b0a74441ba23dcde46678604",
+        "Name": "Root",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "8e5d616f926d4a04b0d6df3d4e6eeffb", "Name": "Level" },
+        "Properties": {
+            "LevelIndex": 1
+        }
+    }
+}]

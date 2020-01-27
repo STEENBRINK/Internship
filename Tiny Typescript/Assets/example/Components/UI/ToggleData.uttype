@@ -1,0 +1,56 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "0c2e8b27d218460a8985ea353882b558",
+    "Name": "ToggleData",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "e0ec1b20401d4be298ea7d22e4540252",
+        "Name": "Activated",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "65d691e182ba40ca9532057f43dcc6dc",
+        "Name": "IsHovered",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "d30bce8b9bb4462686b72e81da27793d",
+        "Name": "IsDown",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "3464b0ec0a3543bd82a54fc5adc550b1",
+        "Name": "Interactable",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "3f1c5bc5f5bb41be83a51996479a736a",
+        "Name": "stillPressed",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "0c2e8b27d218460a8985ea353882b558", "Name": "ToggleData" },
+        "Properties": {
+            "Interactable": true
+        }
+    }
+}]

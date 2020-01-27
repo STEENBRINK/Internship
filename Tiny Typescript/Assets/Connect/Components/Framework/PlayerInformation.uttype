@@ -1,0 +1,162 @@
+[{
+    "$TypeId": 3,
+    "Id": "7d3a588ba3324f66a1b4b4003aaccc36",
+    "Name": "PlayerInformation",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Configuration",
+    "Fields": [{
+        "Id": "2552858e8540449b850c4c6229dffe74",
+        "Name": "Name",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "3356e837cc72415882c2a2c2f2d524b7",
+        "Name": "Email",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "4d7a361658ce491bbb464cd5c5aab5da",
+        "Name": "PhoneNumber",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "694e8e2ce0f542ffb4ba1477369a2870",
+        "Name": "Birthday",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "eee6357e4163463d869f247e4d75dfc3",
+        "Name": "Score",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "d47bce2e42f14df189713ef0ed1272c6",
+        "Name": "PrizeClaimed",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "2cd2d57ac956454696d9abf513bce161",
+        "Name": "LoggedIn",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "a3b179b97b884fbbb9e515632d01f074",
+        "Name": "AcceptedTermsAndServices",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "506661f9f2f741b59fb2ce228cc7e086",
+        "Name": "Respins",
+        "FieldType": { "Id": "2aa56ce081e14e8a93d276da72d813bc", "Name": "Int16" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "034fbe72bf9549ee8e070b529f1fffe8",
+        "Name": "RespinEarned",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": true,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "398a3a07b6274cfc9e74f07fa9da1742",
+        "Name": "IPAddress",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "f6eda545c13648f891350d39ee668bfe",
+        "Name": "DeviceID",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "394a1904951449a985875b88d9b2b37b",
+        "Name": "FacebookID",
+        "FieldType": { "Id": "37695933217a49f68ce15db33f63cdf9", "Name": "Int64" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "0f8b3a4f7d3a47719ccc887e30e7aa86",
+        "Name": "AdblockEnabled",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "ec4764942e7941d2b9470b1cd9a5ca55",
+        "Name": "CouponRedeemed",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "9224cec764c5431a96c5cf36fa079b36",
+        "Name": "Gender",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "16ef04688c804ffdb6d7c4dec6c063b1",
+        "Name": "Location",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "7d3a588ba3324f66a1b4b4003aaccc36", "Name": "PlayerInformation" },
+        "Properties": {
+            "Name": "NameTest",
+            "Email": "MailTest@test.mail",
+            "PhoneNumber": "06666666",
+            "Birthday": "05-13-1999",
+            "Score": 11111,
+            "RespinEarned": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" }
+            },
+            "IPAddress": "192.168.0.163",
+            "DeviceID": "32192050100646453736730368310353736108043",
+            "FacebookID": 12345679020032
+        }
+    }
+}]

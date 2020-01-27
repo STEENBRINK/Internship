@@ -1,0 +1,78 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "55ff5480324e43ee95f4cf6e0c3beac5",
+    "Name": "TileData",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "a46ddd316b404c7b93e606adbce27008",
+        "Name": "TileType",
+        "FieldType": { "Id": "88468cefcb7948b0aeda07b10dcf346b", "Name": "TileTypes" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "084a911d0fbf4c58bb8a1e920cd03689",
+        "Name": "GoalType",
+        "FieldType": { "Id": "a877fb81ce4e4ecebedbeda79485785e", "Name": "GoalTypes" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "a5d47ffdadef4c2da90c537e5680d929",
+        "Name": "HasConnection",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "84d75e2be34b4847858e5aa70967b48a",
+        "Name": "ConnectedTo",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "8fd73d0ea2eb492c9ff47b799e1dc98d",
+        "Name": "IsBackgroundSet",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "8b4301abb2594544a0203072ea0e200a",
+        "Name": "IsLineSet",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "062935b7e3b64552a61885de6e3534bf",
+        "Name": "NumberInLine",
+        "FieldType": { "Id": "27c155635ccb4ab2bcb79ef5aaf129ec", "Name": "Int8" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "55ff5480324e43ee95f4cf6e0c3beac5", "Name": "TileData" },
+        "Properties": {
+            "GoalType": {
+                "$TypeId": 8,
+                "Type": { "Id": "a877fb81ce4e4ecebedbeda79485785e", "Name": "GoalTypes" },
+                "Id": "35c70cbae3ec430ebd5a4f55f06c4ae6",
+                "Name": "NONE",
+                "Value": 4
+            }
+        }
+    }
+}]

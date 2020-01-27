@@ -1,0 +1,46 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "ca20f2fa87f4428aad29e15c59a69699",
+    "Name": "LineType",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "1be792c6da4c42078b5c595b3e4fcf61",
+        "Name": "Type",
+        "FieldType": { "Id": "a877fb81ce4e4ecebedbeda79485785e", "Name": "GoalTypes" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "b7214b29513c4ddeb81daf16f65cf65c",
+        "Name": "StartPoint",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "744bf71a3238495e85fe4d3826f76598",
+        "Name": "EndPoint",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "ca20f2fa87f4428aad29e15c59a69699", "Name": "LineType" },
+        "Properties": {
+            "Type": {
+                "$TypeId": 8,
+                "Type": { "Id": "a877fb81ce4e4ecebedbeda79485785e", "Name": "GoalTypes" },
+                "Id": "35c70cbae3ec430ebd5a4f55f06c4ae6",
+                "Name": "NONE",
+                "Value": 4
+            }
+        }
+    }
+}]

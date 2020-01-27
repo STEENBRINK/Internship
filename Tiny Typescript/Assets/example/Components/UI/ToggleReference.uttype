@@ -1,0 +1,37 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "7536fb57f2b241a5bd31cb9857a62b66",
+    "Name": "ToggleReference",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "e5b67f104581470ebad17e10cbb4c48e",
+        "Name": "Toggle",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "a5156831a67b47e9b714072be0648077",
+        "Name": "IsActivated",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "2f7be06dcb024abf8113b2cea0ed8b12",
+        "Name": "HasChanged",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "7536fb57f2b241a5bd31cb9857a62b66", "Name": "ToggleReference" }
+    }
+}]

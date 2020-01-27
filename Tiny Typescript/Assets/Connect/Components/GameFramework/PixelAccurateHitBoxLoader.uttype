@@ -1,0 +1,12 @@
+[{
+    "$TypeId": 3,
+    "Id": "512fad92734442598d31cf9f28d11ac6",
+    "Name": "PixelAccurateHitBoxLoader",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "DefaultValue": {
+        "Type": { "Id": "512fad92734442598d31cf9f28d11ac6", "Name": "PixelAccurateHitBoxLoader" }
+    }
+}]

@@ -1,0 +1,21 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "b83c7ceb6f6842f8911fcb8f8d673349",
+    "Name": "AudioSourceReference",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "dc8875d9ab774c5aa91463ce77cb59a3",
+        "Name": "AudioEntity",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "b83c7ceb6f6842f8911fcb8f8d673349", "Name": "AudioSourceReference" }
+    }
+}]

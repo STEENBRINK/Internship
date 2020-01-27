@@ -1,0 +1,76 @@
+[{
+    "$TypeId": 3,
+    "Id": "9a1ead02cd0147a98c8be5fb10bcdb62",
+    "Name": "Clicker",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "5567cd8f1a1b434aa4db221c28d37227",
+        "Name": "Presses",
+        "Documentation": {
+            "Summary": "Individual presses (starting points).\nUseful for handling single clicks instead of swipes."
+        },
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": true,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "f81b1b90d6ee4b55b2f4c7e4209c859e",
+        "Name": "StartPoint",
+        "Documentation": {
+            "Summary": "Starting point of a sequence of mouse/finger down points."
+        },
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "3a434b6943054be183ed6a40ecd1f77e",
+        "Name": "Points",
+        "Documentation": {
+            "Summary": "All points in a sequence of mouse/finger down points.\nGets cleared when a new sequence begins."
+        },
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": true,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "fcf7998aae0c4699afb4b65fa5aa0e34",
+        "Name": "EndPoint",
+        "Documentation": {
+            "Summary": "End point of a sequence of mouse/finger down points."
+        },
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "d59d5412af2941d9a64217b68e5535a5",
+        "Name": "Paused",
+        "Documentation": {
+            "Summary": "Determines whether the system should be checking for clicks."
+        },
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "4f812060b90b418ca7e2647056dd4c89",
+        "Name": "Camera",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "9a1ead02cd0147a98c8be5fb10bcdb62", "Name": "Clicker" }
+    }
+}]

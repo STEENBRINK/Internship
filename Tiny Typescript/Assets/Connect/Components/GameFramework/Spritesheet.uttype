@@ -1,0 +1,21 @@
+[{
+    "$TypeId": 3,
+    "Id": "ef1ea47e07714cdcaaaa6472fda4c30b",
+    "Name": "Spritesheet",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "afb07201eb4c43d8adf1c8603eadbcc9",
+        "Name": "Sprites",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": true,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "ef1ea47e07714cdcaaaa6472fda4c30b", "Name": "Spritesheet" }
+    }
+}]

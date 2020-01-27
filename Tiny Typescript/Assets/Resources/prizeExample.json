@@ -1,0 +1,18 @@
+{
+	"prizes": [{
+		"prizeName": "FirstPrize",
+		"imageName": "NameOfImage",
+		"amount": -1,
+		"chance": 33.33
+	}, {
+		"prizeName": "SecondPrize",
+		"imageName": "NameOfImage",
+		"amount": 0,
+		"chance": 33.33
+	}, {
+		"prizeName": "ThirdPrize",
+		"imageName": "NameOfImage",
+		"amount": 100,
+		"chance": 33.33
+	}]
+}

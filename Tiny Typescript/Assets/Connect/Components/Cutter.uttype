@@ -1,0 +1,46 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "c65a527f5b724640807e120018ec0316",
+    "Name": "Cutter",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "4ab42098cd864c09b7a3ed16842bbe12",
+        "Name": "From",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "84c34816f97c4881bd95271649e899e5",
+        "Name": "Number",
+        "FieldType": { "Id": "27c155635ccb4ab2bcb79ef5aaf129ec", "Name": "Int8" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "f51c7f74129b466d913458ff0aae5240",
+        "Name": "GoalType",
+        "FieldType": { "Id": "a877fb81ce4e4ecebedbeda79485785e", "Name": "GoalTypes" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "c65a527f5b724640807e120018ec0316", "Name": "Cutter" },
+        "Properties": {
+            "GoalType": {
+                "$TypeId": 8,
+                "Type": { "Id": "a877fb81ce4e4ecebedbeda79485785e", "Name": "GoalTypes" },
+                "Id": "35c70cbae3ec430ebd5a4f55f06c4ae6",
+                "Name": "NONE",
+                "Value": 4
+            }
+        }
+    }
+}]

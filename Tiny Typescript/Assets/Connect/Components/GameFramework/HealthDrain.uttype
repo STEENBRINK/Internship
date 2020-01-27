@@ -1,0 +1,24 @@
+[{
+    "$TypeId": 3,
+    "Id": "836c74df5db240b2be5a0902d3ebec3b",
+    "Name": "HealthDrain",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "4b8f359ea37b4044ae95c7150eec092d",
+        "Name": "DrainSpeed",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "836c74df5db240b2be5a0902d3ebec3b", "Name": "HealthDrain" },
+        "Properties": {
+            "DrainSpeed": 1
+        }
+    }
+}]

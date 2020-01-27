@@ -1,0 +1,73 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "441c49711124453d8119a036f948a97a",
+    "Name": "Health",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "5184c1ec6de54d379190ff914e5acc66",
+        "Name": "HealthPoints",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "8ad3d0cf6359471790c7b4fd314bf752",
+        "Name": "MaxHealthPoints",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "03001cdf2b6043039f28074b85fcf471",
+        "Name": "DamageToGive",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "3bb6861d54354883bd7b15c55a040f5c",
+        "Name": "DestroyOnDeath",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "531b9221e87d422a8b2b0b2da88a34f7",
+        "Name": "VisualMode",
+        "FieldType": { "Id": "387d2aba16734782b36a2dbf2d940a36", "Name": "HealthVisuals" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "fc178d665a3744068a63f260c4ee628c",
+        "Name": "Visuals",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "441c49711124453d8119a036f948a97a", "Name": "Health" },
+        "Properties": {
+            "HealthPoints": 4,
+            "MaxHealthPoints": 4,
+            "DestroyOnDeath": true,
+            "VisualMode": {
+                "$TypeId": 8,
+                "Type": { "Id": "387d2aba16734782b36a2dbf2d940a36", "Name": "HealthVisuals" },
+                "Id": "c31a5ef37c3c425089447934bdb05b0d",
+                "Name": "NONE",
+                "Value": 2
+            }
+        }
+    }
+}]

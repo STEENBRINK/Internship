@@ -1,0 +1,61 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "7d96e261f2764564819cc4ccfc92e7fb",
+    "Name": "Drawer",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "8af613c69925497daabe3e8b8adac801",
+        "Name": "LineCoords",
+        "FieldType": { "Id": "ab9074756b77ee15b6b7f762b5dfb8a7", "Name": "Vector4" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "d4e5247470174bb4977ed0418e4a61c3",
+        "Name": "BackgroundCoords",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "4c7502cdef724dc680f938221de36324",
+        "Name": "TileSize",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "b06e918429014fa18a1d93cc8d5ebb78",
+        "Name": "TileDistance",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "b70e89d495a04dc986793748837a5997",
+        "Name": "HasEvenAmountOfTiles",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "39e9b326c0024fc9a9bc910b29686788",
+        "Name": "LineThickness",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "7d96e261f2764564819cc4ccfc92e7fb", "Name": "Drawer" }
+    }
+}]

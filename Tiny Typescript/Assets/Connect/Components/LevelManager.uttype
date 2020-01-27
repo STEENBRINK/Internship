@@ -1,0 +1,21 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "c909bf04b60f494fb5aab3fbdbb9f3cf",
+    "Name": "LevelManager",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "eef386081db74d0fb88a5fbce0e2dcc0",
+        "Name": "Action",
+        "FieldType": { "Id": "c352a8fcc46d4affa390db125b02d206", "Name": "LevelMangerActions" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "c909bf04b60f494fb5aab3fbdbb9f3cf", "Name": "LevelManager" }
+    }
+}]

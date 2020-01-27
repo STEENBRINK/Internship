@@ -1,0 +1,69 @@
+[{
+    "$TypeId": 3,
+    "Id": "0a39d428f242459aa3ed9d593a4cff9b",
+    "Name": "AutoGridAlignment",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Enum",
+    "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+    "Fields": [{
+        "Id": "037acacc43244b10b4c08311b9b8f5fc",
+        "Name": "UP",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "172c8e217e424f9bbced1985577e430d",
+        "Name": "DOWN",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "a2065f6c230a4f08ad303431908c314a",
+        "Name": "LEFT",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "98e36b2f8a6e45ac94b1eff5067ed9b4",
+        "Name": "RIGHT",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "95faa7e5ba1c48eca9c14a21b3982980",
+        "Name": "CENTERVERTICAL",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "a63965f04eda4b8e8c962b02a9435fd8",
+        "Name": "CENTERHORIZONTAL",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "0a39d428f242459aa3ed9d593a4cff9b", "Name": "AutoGridAlignment" },
+        "Properties": {
+            "DOWN": 1,
+            "LEFT": 2,
+            "RIGHT": 3,
+            "CENTERVERTICAL": 4,
+            "CENTERHORIZONTAL": 5
+        }
+    }
+}]

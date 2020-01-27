@@ -1,0 +1,21 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "d3aea11bab7a415ca1652164b620bab5",
+    "Name": "Selectable",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "a8bbb0edf4c34eddae57d1f02aafe703",
+        "Name": "Selected",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "d3aea11bab7a415ca1652164b620bab5", "Name": "Selectable" }
+    }
+}]

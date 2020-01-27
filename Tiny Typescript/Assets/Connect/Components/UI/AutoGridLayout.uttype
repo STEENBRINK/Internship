@@ -1,0 +1,40 @@
+[{
+    "$TypeId": 3,
+    "Id": "1fa8fb0f42ea4ce0be48cdb8cc4edc05",
+    "Name": "AutoGridLayout",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "89c08909975647358f6804a1bd60b323",
+        "Name": "Elements",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": true,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "b8443bf6d62b4f2ba238932454437ff9",
+        "Name": "Alignment",
+        "FieldType": { "Id": "0a39d428f242459aa3ed9d593a4cff9b", "Name": "AutoGridAlignment" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "b43b8502d8c94a0cb5e6410b2c4a59c6",
+        "Name": "GapSize",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "1fa8fb0f42ea4ce0be48cdb8cc4edc05", "Name": "AutoGridLayout" },
+        "Properties": {
+            "GapSize": 100
+        }
+    }
+}]

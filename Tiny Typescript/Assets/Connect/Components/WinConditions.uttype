@@ -1,0 +1,89 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "526492b2e6614df88d3a05c156190c6e",
+    "Name": "WinConditions",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "3fba0188f048472f86ad6298b3e03b7d",
+        "Name": "MustCompleteDog",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "c6ee70cf5db948d698278ffecd42a03e",
+        "Name": "HasCompletedDog",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "cbf00d7e87bd4c15802b8f5a6c81769c",
+        "Name": "MustCompleteBunny",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "4848e97985d84274958d403460488968",
+        "Name": "HasCompletedBunny",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "e47e48bba3584cbfa83dc2b96b36029f",
+        "Name": "MustCompleteCat",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "e3f3b874fff64c52922f27821604980a",
+        "Name": "HasCompletedCat",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "307c9141336e461eb37fb4ddb45f9dc4",
+        "Name": "MustCompleteMouse",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "a6c788aa692d4793af816731a9864dbb",
+        "Name": "HasCompletedMouse",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "9d8551affd7b4936aa09adfa4624459e",
+        "Name": "IsCompleted",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "526492b2e6614df88d3a05c156190c6e", "Name": "WinConditions" },
+        "Properties": {
+            "MustCompleteDog": false,
+            "HasCompletedDog": false
+        }
+    }
+}]

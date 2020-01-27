@@ -1,0 +1,40 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "0494a911017c4246a5ce895026a07963",
+    "Name": "ParallaxObject",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "911122567d0f43c49712a310ee539287",
+        "Name": "Copy",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "2971af55e01746a3956c5d809331b246",
+        "Name": "MoveSpeed",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "0aae530127ec44fca5bbbf41633d3ee5",
+        "Name": "Paused",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "0494a911017c4246a5ce895026a07963", "Name": "ParallaxObject" },
+        "Properties": {
+            "MoveSpeed": 1
+        }
+    }
+}]

@@ -1,0 +1,60 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "ffb6b65a33594830acaef6f26fb5d409",
+    "Name": "TileType",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Enum",
+    "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+    "Fields": [{
+        "Id": "1575f62367e74fb180b3edcb370c3069",
+        "Name": "EMPTY",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "0c97169402dd4d9a9387380991c87677",
+        "Name": "PLAYER",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "949447f59bc64f79a456aea98d887158",
+        "Name": "WALL",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "0456d056b9284ea9858e94ff65eb27ed",
+        "Name": "MOVEABLE",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "c311d40829da44358615093451916225",
+        "Name": "GOAL",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "ffb6b65a33594830acaef6f26fb5d409", "Name": "TileType" },
+        "Properties": {
+            "PLAYER": 1,
+            "WALL": 2,
+            "MOVEABLE": 3,
+            "GOAL": 4
+        }
+    }
+}]

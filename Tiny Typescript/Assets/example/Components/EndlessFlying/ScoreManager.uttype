@@ -1,0 +1,21 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "6eeca0df423443cfb2fd066c6b7e4ae0",
+    "Name": "ScoreManager",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "ac7360e3738141bd8cd2f55095f33ca1",
+        "Name": "Score",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "6eeca0df423443cfb2fd066c6b7e4ae0", "Name": "ScoreManager" }
+    }
+}]

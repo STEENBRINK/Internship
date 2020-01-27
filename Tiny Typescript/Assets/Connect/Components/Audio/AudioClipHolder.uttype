@@ -1,0 +1,21 @@
+[{
+    "$TypeId": 3,
+    "Id": "0058a08bc16b450c87af40209f5e8124",
+    "Name": "AudioClipHolder",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "a2e10b5f8ad9438a8c0ba2eee28f2897",
+        "Name": "Clips",
+        "FieldType": { "Id": "1ae8c073dc444f4fb2d3120e5e618326", "Name": "AudioClipEntity" },
+        "Array": true,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "0058a08bc16b450c87af40209f5e8124", "Name": "AudioClipHolder" }
+    }
+}]

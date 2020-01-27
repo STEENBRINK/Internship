@@ -1,0 +1,100 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "4e161c81ba4d4a2c8b84ea2d1490afe0",
+    "Name": "CoinSpawner",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "79b1282a986043eb8e87d9637155b898",
+        "Name": "CoinEntityGroup",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "ddbea37811f24cff8f8de2a31e06c8bf",
+        "Name": "VerticalOffset",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "6e4a154ca5684a4195d6ca8e9af97590",
+        "Name": "CoinsPerRow",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "0c860043b64a49ecad6f0949f19d6db8",
+        "Name": "RowOffset",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "5de7e9a42df14b2b916fa6f28bac2289",
+        "Name": "SpawnLocationX",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "b1e3d2bdcee142ca9de87ee7c39b20bd",
+        "Name": "SpawnLocationMinMaxY",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "31380e4a948f41eb927b9145a5373e0e",
+        "Name": "CanSpawn",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "7d1e02e38e49409180cdf253f8337d54",
+        "Name": "CurrentXOffset",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "be56c9f040464fde898f3dfac4c96672",
+        "Name": "CurrentYOffset",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "4e161c81ba4d4a2c8b84ea2d1490afe0", "Name": "CoinSpawner" },
+        "Properties": {
+            "CoinEntityGroup": "game.Coin",
+            "VerticalOffset": 1.5,
+            "CoinsPerRow": 6,
+            "RowOffset": 8,
+            "SpawnLocationX": 12.5,
+            "SpawnLocationMinMaxY": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": -5.5,
+                    "y": 5.5
+                }
+            },
+            "CanSpawn": true
+        }
+    }
+}]

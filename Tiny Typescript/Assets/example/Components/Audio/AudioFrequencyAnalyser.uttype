@@ -1,0 +1,45 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "08c9ef2fc8f04a3c8c7fd855fa31dad0",
+    "Name": "AudioFrequencyAnalyser",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "e7827b1b2da74e139534da3b6473525e",
+        "Name": "FrequencyData",
+        "FieldType": { "Id": "7112767112f747e2a340404a5ceb31b5", "Name": "UInt8" },
+        "Array": true,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "48ff245b993b4c688f6c4979d395ca61",
+        "Name": "FrequencyDomain",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "87d08268eb804c81a16b769f0fe28cc0",
+        "Name": "Initialized",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "08c9ef2fc8f04a3c8c7fd855fa31dad0", "Name": "AudioFrequencyAnalyser" },
+        "Properties": {
+            "FrequencyDomain": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "y": 100
+                }
+            }
+        }
+    }
+}]

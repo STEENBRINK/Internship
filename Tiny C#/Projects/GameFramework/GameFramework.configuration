@@ -1,0 +1,75 @@
+{
+    "FileType": "Scene",
+    "Guid": "46b433b264c69cbd39f04ad2e5d12be8",
+    "SerializedVersion": 1,
+    "AssetReferences": [],
+    "Entities": [{
+        "Components": [{
+            "$type": "Modules.DestroyOutOfBounds.AspectRatio, GameFramework",
+            "aspecratio": {
+                "x": 16,
+                "y": 9
+            }
+        }, {
+            "$type": "Unity.Entities.EntityGuid, Unity.Entities",
+            "a": 1993143684547821891,
+            "b": 13395591141723722018
+        }, {
+            "$type": "Unity.Tiny.Core2D.DisplayInfo, Unity.Tiny.Core2D",
+            "width": 1280,
+            "height": 720,
+            "autoSizeToFrame": true,
+            "orientation": 0,
+            "renderMode": 0
+        }, {
+            "$type": "Unity.Tiny.Scenes.Scenes, Unity.Tiny.Scenes",
+            "Elements": [{
+                "SceneReference": {
+                    "SceneGuid": "6e69b3dec50149d6a43ed2af79ea9359"
+                }
+            }, {
+                "SceneReference": {
+                    "SceneGuid": "2deab973328f444391079015805def41"
+                }
+            }, {
+                "SceneReference": {
+                    "SceneGuid": "d66bbfe624e64e15802d0cb6d870b3e0"
+                }
+            }, {
+                "SceneReference": {
+                    "SceneGuid": "66790dbfc9e744d795bc723a72c43c4c"
+                }
+            }]
+        }, {
+            "$type": "Unity.Tiny.Scenes.StartupScenes, Unity.Tiny.Scenes",
+            "Elements": [{
+                "SceneReference": {
+                    "SceneGuid": "6e69b3dec50149d6a43ed2af79ea9359"
+                }
+            }, {
+                "SceneReference": {
+                    "SceneGuid": "2deab973328f444391079015805def41"
+                }
+            }]
+        }, {
+            "$type": "Unity.Authoring.Core.ComponentOrder, Unity.Authoring.Core",
+            "Elements": [{
+                "StableTypeHash": 7960064150805274675
+            }, {
+                "StableTypeHash": 12662904853204722592
+            }, {
+                "StableTypeHash": 3576434525558856776
+            }, {
+                "StableTypeHash": 16985774797839968097
+            }, {
+                "StableTypeHash": 8943308560352495552
+            }, {
+                "StableTypeHash": 6037643957304857283
+            }, {
+                "StableTypeHash": 7624459090732086324
+            }]
+        }, {
+            "$type": "Unity.Authoring.Core.ConfigurationTag, Unity.Authoring.Core"
+        }]
+    }]
+}

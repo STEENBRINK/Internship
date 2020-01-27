@@ -1,0 +1,80 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "84cc083b7f094096b35156218283e2c9",
+    "Name": "LevelSlider",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "f65377643e584fb5a09442b2d2a252e5",
+        "Name": "LevelDistance",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "5997a9a7fb5c4068bcda7b1ecff724f7",
+        "Name": "LevelIndex",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "1e96bb8e06b440d8becf1a449404ee1e",
+        "Name": "GoToNextLevel",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "066d000bc02841d0b149d7ed45589a0b",
+        "Name": "IsInTransition",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "0d63a420a3ee400fa95a2badabe438ca",
+        "Name": "GoToPreviousLevel",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "845435ee4c2a4838b9409127db0f698f",
+        "Name": "DisableType",
+        "FieldType": { "Id": "bbb8582a73804d048b77ffcf7417cbb0", "Name": "SliderDisableTypes" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "87507a315c934eef84d41bf722762e60",
+        "Name": "YLevel",
+        "FieldType": { "Id": "2aa56ce081e14e8a93d276da72d813bc", "Name": "Int16" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "84cc083b7f094096b35156218283e2c9", "Name": "LevelSlider" },
+        "Properties": {
+            "LevelDistance": 15,
+            "LevelIndex": 1,
+            "DisableType": {
+                "$TypeId": 8,
+                "Type": { "Id": "bbb8582a73804d048b77ffcf7417cbb0", "Name": "SliderDisableTypes" },
+                "Id": "f4d8e58b874844079e9a9b7cb3b105ab",
+                "Name": "DisableChildrenAndParent",
+                "Value": 1
+            }
+        }
+    }
+}]

@@ -1,0 +1,29 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "8fe536b9332746d983bfc573a067978e",
+    "Name": "Enemy",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "7e67441e33744dc69cf4affe04579cb0",
+        "Name": "Animation",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "eb6e444c33244989baea3581a3e36476",
+        "Name": "DeathAnimation",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "8fe536b9332746d983bfc573a067978e", "Name": "Enemy" }
+    }
+}]

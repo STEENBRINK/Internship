@@ -1,0 +1,86 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "b99e647c00304d41b1e721e8324aa282",
+    "Name": "ConnectManager",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "1889b21b73624b62a0ebcd2696a27ae9",
+        "Name": "CurrentGoalType",
+        "FieldType": { "Id": "a877fb81ce4e4ecebedbeda79485785e", "Name": "GoalTypes" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "1358018fa85f414e922063b1e70654d4",
+        "Name": "GridBounds",
+        "FieldType": { "Id": "ab9074756b77ee15b6b7f762b5dfb8a7", "Name": "Vector4" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "993e47d8028840f688d3e8b6e71307e6",
+        "Name": "IsLocked",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "6ab5c59e07b941e6bb4f3924538cb83c",
+        "Name": "CurrentTile",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "ea7c1cc537ef4d378f3603cdf7f5f825",
+        "Name": "HasCompletedObjective",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "d3f3ffbdc8ac4d938df6fcefc71dab46",
+        "Name": "CurrentNumber",
+        "FieldType": { "Id": "27c155635ccb4ab2bcb79ef5aaf129ec", "Name": "Int8" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "f34beb65fe1e4b1b9b0c781e00613bd4",
+        "Name": "IsSetup",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "e3b49ddaeaf74e2f956b41d99b1a93b2",
+        "Name": "WaitForCut",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "b99e647c00304d41b1e721e8324aa282", "Name": "ConnectManager" },
+        "Properties": {
+            "CurrentGoalType": {
+                "$TypeId": 8,
+                "Type": { "Id": "a877fb81ce4e4ecebedbeda79485785e", "Name": "GoalTypes" },
+                "Id": "35c70cbae3ec430ebd5a4f55f06c4ae6",
+                "Name": "NONE",
+                "Value": 4
+            }
+        }
+    }
+}]

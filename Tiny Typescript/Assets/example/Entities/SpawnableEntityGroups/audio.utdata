@@ -1,0 +1,18 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "48c7d840399948fca428b7e14af0031a",
+    "Name": "audio",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "87e18485b2eb4b969bb3e24ea7b47cbd", "Name": "AudioEntity" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "87e18485b2eb4b969bb3e24ea7b47cbd",
+    "Name": "AudioEntity",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0
+}]

@@ -1,0 +1,21 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "538214bab943465ba837b6a7a779e2bd",
+    "Name": "CurrentRoot",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "7aaf5cbf317c4f8c8730ecc396eefb82",
+        "Name": "RootEntity",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "538214bab943465ba837b6a7a779e2bd", "Name": "CurrentRoot" }
+    }
+}]

@@ -1,0 +1,106 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "f7060430c87e4cf8bd5253d1434bd5cc",
+    "Name": "ToggleVisuals",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "8be77d3e53d94abe84aaa53f10dec5b7",
+        "Name": "Toggle",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "969e986b6a4c45be9c3145a103a02704",
+        "Name": "ActivatedImage",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "ff40efcd571e4f8182797aba8aeceeed",
+        "Name": "DeactivatedImage",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "1461f8c727b24faa8d21b256f9bf9ce2",
+        "Name": "DefaultColor",
+        "FieldType": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "f1bf30cc14de4d638faf592db7e0ad21",
+        "Name": "HoveredColor",
+        "FieldType": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "a486753479de4dc7bcb18681c4bce155",
+        "Name": "DownColor",
+        "FieldType": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "4235a71c16d646cc9c103a1645e367a3",
+        "Name": "DisabledColor",
+        "FieldType": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "125d847884f74d409573b225fefbc46a",
+        "Name": "Initialized",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "f7060430c87e4cf8bd5253d1434bd5cc", "Name": "ToggleVisuals" },
+        "Properties": {
+            "HoveredColor": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 0.8666667,
+                    "g": 0.8666667,
+                    "b": 0.8666667,
+                    "a": 1
+                }
+            },
+            "DownColor": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 0.6117647,
+                    "g": 0.6117647,
+                    "b": 0.6117647,
+                    "a": 1
+                }
+            },
+            "DisabledColor": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 0.8784314,
+                    "g": 0.8784314,
+                    "b": 0.8784314,
+                    "a": 0.6352941
+                }
+            }
+        }
+    }
+}]

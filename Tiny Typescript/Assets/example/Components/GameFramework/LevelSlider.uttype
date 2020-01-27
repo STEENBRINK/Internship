@@ -1,0 +1,49 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "6a338251382b4b46a70b2a535984ed2b",
+    "Name": "LevelSlider",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "f65377643e584fb5a09442b2d2a252e5",
+        "Name": "LevelDistance",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "5997a9a7fb5c4068bcda7b1ecff724f7",
+        "Name": "LevelIndex",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "1e96bb8e06b440d8becf1a449404ee1e",
+        "Name": "GoToNextLevel",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "066d000bc02841d0b149d7ed45589a0b",
+        "Name": "InTransition",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "6a338251382b4b46a70b2a535984ed2b", "Name": "LevelSlider" },
+        "Properties": {
+            "LevelDistance": 15,
+            "LevelIndex": 1
+        }
+    }
+}]

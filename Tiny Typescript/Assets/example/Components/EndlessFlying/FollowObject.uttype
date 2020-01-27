@@ -1,0 +1,33 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "1bb9a5dbacf14c5883d713e50790182e",
+    "Name": "FollowObject",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "4875cf8bd2f74b049b927c39fd367c38",
+        "Name": "DownForce",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "0023ceff8efc49838274315372d33680",
+        "Name": "UpperLimit",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "1bb9a5dbacf14c5883d713e50790182e", "Name": "FollowObject" },
+        "Properties": {
+            "DownForce": -10,
+            "UpperLimit": 7
+        }
+    }
+}]

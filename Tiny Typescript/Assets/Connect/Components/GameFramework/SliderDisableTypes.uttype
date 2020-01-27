@@ -1,0 +1,60 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "bbb8582a73804d048b77ffcf7417cbb0",
+    "Name": "SliderDisableTypes",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Enum",
+    "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+    "Fields": [{
+        "Id": "9e71957f0c2f4dada535ff5584418622",
+        "Name": "DisableParentOnly",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "f4d8e58b874844079e9a9b7cb3b105ab",
+        "Name": "DisableChildrenAndParent",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "65157cc705ff48ac88e1378b167de09c",
+        "Name": "RemoveAllChildren",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "17219d27872f4f70a9075e9d943f3711",
+        "Name": "RemoveChildrenWithDestroyOnLevelSlideComponent",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "9d1f5ad4db414d8db93c8844f31b85b3",
+        "Name": "RemoveAll",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "bbb8582a73804d048b77ffcf7417cbb0", "Name": "SliderDisableTypes" },
+        "Properties": {
+            "DisableChildrenAndParent": 1,
+            "RemoveAllChildren": 2,
+            "RemoveChildrenWithDestroyOnLevelSlideComponent": 3,
+            "RemoveAll": 4
+        }
+    }
+}]

@@ -1,0 +1,72 @@
+[{
+    "$TypeId": 3,
+    "Id": "67fdf4663a9c466889d4062cc40088d5",
+    "Name": "Spawner",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "7abd6dcf00e44660949dff2c35f8ff37",
+        "Name": "Prefab",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": true,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "640b72f7ef5642ddbf7307744707b76d",
+        "Name": "SpawnMode",
+        "FieldType": { "Id": "92bb4b401704486d9327893a69ccbe3c", "Name": "SpawnMode" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "54a1a13959a149d9af5a3b85475d77b8",
+        "Name": "SpawnPositionMinMaxX",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "7e9619028fb74e1fbeedf3831806fa73",
+        "Name": "SpawnPositionMinMaxY",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "a11e1aa1c2f341b4af655cf6e5cc2d6f",
+        "Name": "CanSpawn",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "67fdf4663a9c466889d4062cc40088d5", "Name": "Spawner" },
+        "Properties": {
+            "Prefab": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" }
+            },
+            "SpawnPositionMinMaxX": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 12.5,
+                    "y": 12.51
+                }
+            },
+            "SpawnPositionMinMaxY": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": -10,
+                    "y": 10
+                }
+            }
+        }
+    }
+}]

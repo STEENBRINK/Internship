@@ -1,0 +1,21 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "08a226e677a1470a8c0ec7167abcde6d",
+    "Name": "CanvasResolutionFitter",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "eb06dde27cd740798c2ca2ed686f0393",
+        "Name": "DefaultHalfVerticalSize",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "08a226e677a1470a8c0ec7167abcde6d", "Name": "CanvasResolutionFitter" }
+    }
+}]

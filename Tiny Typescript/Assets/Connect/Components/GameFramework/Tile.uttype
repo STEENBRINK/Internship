@@ -1,0 +1,29 @@
+[{
+    "$TypeId": 3,
+    "Id": "78ac806def894082a5e7f0ca5638c609",
+    "Name": "Tile",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "f986c9a32c514f1ea388d217baaf2554",
+        "Name": "Position",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "4cfb1f7486e44417acd5951de01f8190",
+        "Name": "Type",
+        "FieldType": { "Id": "6daeee331b18408496e2260a9c635afe", "Name": "TileType" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "78ac806def894082a5e7f0ca5638c609", "Name": "Tile" }
+    }
+}]

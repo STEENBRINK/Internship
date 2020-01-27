@@ -1,0 +1,29 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "8ae1478004464a20b9eb5613a50b8943",
+    "Name": "HexTile",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "17366f8428e24bdc996e8c93cc95f039",
+        "Name": "Position",
+        "FieldType": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "c2f06dba0d1c42138e18344ace4f2d5a",
+        "Name": "Type",
+        "FieldType": { "Id": "ffb6b65a33594830acaef6f26fb5d409", "Name": "TileType" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "8ae1478004464a20b9eb5613a50b8943", "Name": "HexTile" }
+    }
+}]

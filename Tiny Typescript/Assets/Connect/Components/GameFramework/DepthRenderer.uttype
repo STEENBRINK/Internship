@@ -1,0 +1,74 @@
+[{
+    "$TypeId": 3,
+    "Id": "bd7857af06e240bfa6b62dc04ce44e50",
+    "Name": "DepthRenderer",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "da0774f7b9e247b68a34db305d50943c",
+        "Name": "ScaleDropOff",
+        "FieldType": { "Id": "280b143c739160ffb69b3cf552f375bb", "Name": "CurveEntity" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "f9131a4962664900ad89285d3b7b1bc5",
+        "Name": "InitialScale",
+        "FieldType": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "bd7857af06e240bfa6b62dc04ce44e50", "Name": "DepthRenderer" },
+        "Properties": {
+            "ScaleDropOff": {
+                "Type": { "Id": "280b143c739160ffb69b3cf552f375bb", "Name": "CurveEntity" },
+                "Properties": {
+                    "keys": {
+                        "Type": { "Id": "5b6ff13fbf23066d1d6b6515f1fedfbd", "Name": "KeyFrame" },
+                        "Items": [{
+                            "Type": { "Id": "5b6ff13fbf23066d1d6b6515f1fedfbd", "Name": "KeyFrame" },
+                            "Properties": {
+                                "inTangent": -0.1,
+                                "inWeight": 0,
+                                "outTangent": -0.1,
+                                "outWeight": 0.3333333,
+                                "time": 0,
+                                "value": 1
+                            }
+                        }, {
+                            "Type": { "Id": "5b6ff13fbf23066d1d6b6515f1fedfbd", "Name": "KeyFrame" },
+                            "Properties": {
+                                "inTangent": -0.1,
+                                "inWeight": 0.3333333,
+                                "outTangent": -0.1,
+                                "outWeight": 0,
+                                "time": 10,
+                                "value": 0
+                            }
+                        }]
+                    },
+                    "postWrapMode": {
+                        "$TypeId": 8,
+                        "Type": { "Id": "440cf56acc9270b677b8a90e4477735d", "Name": "WrapMode" },
+                        "Id": "8464aeecddfc5598de65dfca1ab8d89a",
+                        "Name": "ClampForever",
+                        "Value": 8
+                    },
+                    "preWrapMode": {
+                        "$TypeId": 8,
+                        "Type": { "Id": "440cf56acc9270b677b8a90e4477735d", "Name": "WrapMode" },
+                        "Id": "8464aeecddfc5598de65dfca1ab8d89a",
+                        "Name": "ClampForever",
+                        "Value": 8
+                    }
+                }
+            }
+        }
+    }
+}]

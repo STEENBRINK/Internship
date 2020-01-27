@@ -1,0 +1,12 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "35b805ab41f34486a72ae141106a6e67",
+    "Name": "Shield",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "DefaultValue": {
+        "Type": { "Id": "35b805ab41f34486a72ae141106a6e67", "Name": "Shield" }
+    }
+}]

@@ -1,0 +1,33 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "85d3c87433d84d879a89a8b62e6e6bbf",
+    "Name": "ClickRenderingMode",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Enum",
+    "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+    "Fields": [{
+        "Id": "c09fb5af6c4c4e80bf16f454916b90da",
+        "Name": "ONCLICK",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "533d849ffcc54a87ba93f418ae053338",
+        "Name": "CONTINUOUS",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "85d3c87433d84d879a89a8b62e6e6bbf", "Name": "ClickRenderingMode" },
+        "Properties": {
+            "CONTINUOUS": 1
+        }
+    }
+}]

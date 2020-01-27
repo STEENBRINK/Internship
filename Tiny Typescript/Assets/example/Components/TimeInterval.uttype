@@ -1,0 +1,32 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "31eccb7b2fdf41c2b30984cbd22142e9",
+    "Name": "TimeInterval",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "29841befcf014fffbebec8b8d5bbedac",
+        "Name": "Time",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "b8291ee7a323443aadf2bc92ad456790",
+        "Name": "Interval",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "31eccb7b2fdf41c2b30984cbd22142e9", "Name": "TimeInterval" },
+        "Properties": {
+            "Interval": 1
+        }
+    }
+}]

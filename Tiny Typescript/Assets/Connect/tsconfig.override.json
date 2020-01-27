@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "jsxFactory": "game.IsHTMLService.CreateElement",
+        "allowJs": true
+    },
+    "include": [
+        "Assets/**/*.tsx",
+    ]
+}

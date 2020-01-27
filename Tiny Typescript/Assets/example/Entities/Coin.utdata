@@ -1,0 +1,122 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "b580400b058e4487b1b756e626e175ba",
+    "Name": "Coin",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "b773284680364dcfb415c43e6de2ff63", "Name": "Coin" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "b773284680364dcfb415c43e6de2ff63",
+    "Name": "Coin",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" },
+        "Properties": {
+            "scale": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0.75,
+                    "y": 0.75
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "44c34eb59eab9d34daea68d0d1f457eb", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "be2f221c9af74ec5c0a4495a2d6769a3", "Name": "Sprite2DRendererOptions" },
+        "Properties": {
+            "size": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 1,
+                    "y": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "5a68c59783d93e60c704f63111bcb0ad", "Name": "Sprite2DRendererHitBox2D" },
+        "Properties": {
+            "pixelAccurate": true
+        }
+    }, {
+        "Type": { "Id": "d3a0393c70934362945958e04b3d4ab1", "Name": "PixelAccurateHitBoxLoader" }
+    }, {
+        "Type": { "Id": "70a681455b214e1086d96aa76370911a", "Name": "Coin" }
+    }, {
+        "Type": { "Id": "c15055d6403444d1b54a1769bfd3c07e", "Name": "Movement" },
+        "Properties": {
+            "Direction": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": -1
+                }
+            },
+            "Speed": 4,
+            "MinMaxX": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": -20,
+                    "y": 20
+                }
+            },
+            "MinMaxY": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": -6,
+                    "y": 6
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "0da2e5b682c44ed3ab7ce8caa0e6636b", "Name": "DestroyOutOfBounds" },
+        "Properties": {
+            "BoundsMinMaxX": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": -12.5,
+                    "y": 20
+                }
+            },
+            "BoundsMinMaxY": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": -6,
+                    "y": 6
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "a60aa1b9ad84a83eefb0d5382a4d5967", "Name": "AudioSource" },
+        "Properties": {
+            "clip": { "$TypeId": 10, "Guid": "2c2a5bf73cccb1f4ab929529cd7d0376", "FileId": 8300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 1
+        }
+    }]
+}]

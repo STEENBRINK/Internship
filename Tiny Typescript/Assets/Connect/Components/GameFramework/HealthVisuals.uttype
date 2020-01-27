@@ -1,0 +1,42 @@
+[{
+    "$TypeId": 3,
+    "Id": "8e96086649f940d090f9275defdb7b58",
+    "Name": "HealthVisuals",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Enum",
+    "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+    "Fields": [{
+        "Id": "c3aab34faef8407cae98b98eab858924",
+        "Name": "LIFEPOINTS",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "e0c34e57718d4b7aa8b878d9de2563b6",
+        "Name": "LIFEBAR",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "c31a5ef37c3c425089447934bdb05b0d",
+        "Name": "NONE",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "8e96086649f940d090f9275defdb7b58", "Name": "HealthVisuals" },
+        "Properties": {
+            "LIFEBAR": 1,
+            "NONE": 2
+        }
+    }
+}]

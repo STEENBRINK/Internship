@@ -1,0 +1,42 @@
+[{
+    "$TypeId": 3,
+    "Id": "1c08f6c621324b2590bcf6154753d260",
+    "Name": "ClickVisualMode",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Enum",
+    "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+    "Fields": [{
+        "Id": "bdbecc394f364be4b5cfbed0ee121862",
+        "Name": "FADINGIMAGE",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "90ee7cc31b144a42ba9db9a273d557af",
+        "Name": "ANIMATION",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "ddb1c86c6ef64488a5437aa08eb20320",
+        "Name": "PARTICLES",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "1c08f6c621324b2590bcf6154753d260", "Name": "ClickVisualMode" },
+        "Properties": {
+            "ANIMATION": 1,
+            "PARTICLES": 2
+        }
+    }
+}]

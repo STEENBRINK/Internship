@@ -1,0 +1,16 @@
+*.ts.meta
+Logs
+Temp
+Library
+.vscode
+.idea
+obj
+TinyExport
+Tiny
+tsconfig.json
+.DS_Store
+TinyCache
+*.log
+*.csproject
+*.csproj
+*.sln

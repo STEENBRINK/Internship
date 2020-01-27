@@ -1,0 +1,132 @@
+{
+    "FileType": "Scene",
+    "Guid": "2deab973328f444391079015805def41",
+    "SerializedVersion": 1,
+    "AssetReferences": [
+        { "Guid": "02a6d10aae8b5fa4ba7c9965d222195d", "FileId": 8300000, "Type": 3},
+        { "Guid": "42eb4122c4b4af841958946cff314bae", "FileId": 8300000, "Type": 3},
+        { "Guid": "19ba0e27ab4add840b995061766548c9", "FileId": 8300000, "Type": 3}],
+    "Entities": [{
+        "Components": [{
+            "$type": "Unity.Tiny.Core2D.Parent, Unity.Tiny.Core2D"
+        }, {
+            "$type": "Unity.Authoring.Core.SiblingIndex, Unity.Authoring.Core"
+        }, {
+            "$type": "Modules.Timer.Timer, GameFramework",
+            "countType": 1,
+            "maxTime": 2,
+            "currentTime": 2
+        }, {
+            "$type": "Modules.Spawner.Spawner, GameFramework",
+            "sceneReferenceToSpawn": {
+                "SceneGuid": "66790dbfc9e744d795bc723a72c43c4c"
+            },
+            "spawnType": 1,
+            "translationType": 0,
+            "spawnPos": {},
+            "spawnOffset": {}
+        }, {
+            "$type": "Modules.AudioHandler.AudioSorting.AudioSetup, GameFramework",
+            "jump": 1,
+            "click": 6
+        }, {
+            "$type": "Unity.Entities.EntityGuid, Unity.Entities",
+            "a": 5942991378715987573,
+            "b": 9801646606160032679
+        }, {
+            "$type": "Unity.Tiny.Core2D.Camera2D, Unity.Tiny.Core2D",
+            "halfVerticalSize": 5,
+            "rect": {
+                "width": 1,
+                "height": 1
+            },
+            "backgroundColor": {
+                "r": 0.1921569,
+                "g": 0.3019608,
+                "b": 0.4745098,
+                "a": 1
+            },
+            "clearFlags": 1,
+            "cullingMode": 0
+        }, {
+            "$type": "Unity.Tiny.Core2D.Translation, Unity.Tiny.Core2D",
+            "Value": {}
+        }, {
+            "$type": "Unity.Tiny.Core2D.Rotation, Unity.Tiny.Core2D",
+            "Value": {
+                "value": {}
+            }
+        }, {
+            "$type": "Unity.Tiny.Core2D.NonUniformScale, Unity.Tiny.Core2D",
+            "Value": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }, {
+            "$type": "Modules.AudioHandler.Core.AudioSources, GameFramework",
+            "Elements": [{
+                "clip": "b489ae5f55c024c294186277953f9ab2",
+                "volume": 1
+            }, {}, {
+                "clip": "5714aeafe5853db8ff142a201ad27f06"
+            }, {
+                "clip": "6592f73b81dbee7312cb1833432841c6"
+            }, {}, {}, {}, {}]
+        }, {
+            "$type": "Unity.Tiny.Core.EntityName, Unity.Tiny.Core",
+            "Elements": [{
+                "c": "C"
+            }, {
+                "c": "a"
+            }, {
+                "c": "m"
+            }, {
+                "c": "e"
+            }, {
+                "c": "r"
+            }, {
+                "c": "a"
+            }]
+        }, {
+            "$type": "Unity.Authoring.Core.ComponentOrder, Unity.Authoring.Core",
+            "Elements": [{
+                "StableTypeHash": 7960064150805274675
+            }, {
+                "StableTypeHash": 793987765392955020
+            }, {
+                "StableTypeHash": 12662904853204722592
+            }, {
+                "StableTypeHash": 742575471234645341
+            }, {
+                "StableTypeHash": 266869500686333426
+            }, {
+                "StableTypeHash": 9104342357061045742
+            }, {
+                "StableTypeHash": 17378348762221180850
+            }, {
+                "StableTypeHash": 874803706151837934
+            }, {
+                "StableTypeHash": 16985774797839968097
+            }, {
+                "StableTypeHash": 7644086118538925328
+            }, {
+                "StableTypeHash": 17828225131179475344
+            }, {
+                "StableTypeHash": 1385054634192602419
+            }, {
+                "StableTypeHash": 3975653257431592620
+            }, {
+                "StableTypeHash": 14899662454070992496
+            }, {
+                "StableTypeHash": 16849493837385356417
+            }, {
+                "StableTypeHash": 11815458332736467076
+            }, {
+                "StableTypeHash": 14858285301222426628
+            }, {
+                "StableTypeHash": 1879626011070132753
+            }]
+        }]
+    }]
+}

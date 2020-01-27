@@ -1,0 +1,33 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "79279631504748319b228fda81f8cfce",
+    "Name": "SpawnMode",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Enum",
+    "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+    "Fields": [{
+        "Id": "e23115e2ba4a46cf8df1318fa9c22939",
+        "Name": "TIMEINTERVAL",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "a6c227cd9ccf4b71a107e6a4dec4ef81",
+        "Name": "MANUAL",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "79279631504748319b228fda81f8cfce", "Name": "SpawnMode" },
+        "Properties": {
+            "MANUAL": 1
+        }
+    }
+}]

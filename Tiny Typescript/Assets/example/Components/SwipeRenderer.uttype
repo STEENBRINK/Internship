@@ -1,0 +1,56 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "a5664209ecc84fe6866ac0dac8ad0211",
+    "Name": "SwipeRenderer",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "dfb5d22d875447d78f32b68a8ea88ad6",
+        "Name": "Clicker",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "e5f7726e998c4c79a783fa6628149347",
+        "Name": "SwipeVisuals",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "2462ab3fe87f48d2af162bb8db731369",
+        "Name": "SwipePrefabs",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": true,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "5ffb8d9a603a4f8fb108d05fa9b4d5cc",
+        "Name": "MinimumSwipeDistance",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "d8ee01145c9b4463b95db110d514923b",
+        "Name": "Paused",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "a5664209ecc84fe6866ac0dac8ad0211", "Name": "SwipeRenderer" },
+        "Properties": {
+            "MinimumSwipeDistance": 10
+        }
+    }
+}]

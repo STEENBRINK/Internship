@@ -1,0 +1,50 @@
+[{
+    "$TypeId": 3,
+    "Id": "d76b322c88e94e42a1ed50250e8f76cd",
+    "Name": "SpritesheetLoader",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "fcabedeb2b1d4aa38c4947e312b0ab01",
+        "Name": "Spritesheet",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "5e2f353b2d9f421ab23438dc1a954a2d",
+        "Name": "Rows",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "7b0bd755ee1b46f0af00492548f09a13",
+        "Name": "Columns",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "87e2f846a2de4848b59930824a1b29ac",
+        "Name": "SpritesheetEntityName",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "d76b322c88e94e42a1ed50250e8f76cd", "Name": "SpritesheetLoader" },
+        "Properties": {
+            "Rows": 1,
+            "Columns": 1,
+            "SpritesheetEntityName": "(Optional)"
+        }
+    }
+}]

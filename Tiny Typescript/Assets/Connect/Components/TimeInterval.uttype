@@ -1,0 +1,41 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "24912aae53ef4c08aa83e1c84df2a224",
+    "Name": "TimeInterval",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "29841befcf014fffbebec8b8d5bbedac",
+        "Name": "Time",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "b8291ee7a323443aadf2bc92ad456790",
+        "Name": "Interval",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "eca9f7f6b70d40e9a335cd1e734ac908",
+        "Name": "CountUp",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "24912aae53ef4c08aa83e1c84df2a224", "Name": "TimeInterval" },
+        "Properties": {
+            "Interval": 1,
+            "CountUp": true
+        }
+    }
+}]
